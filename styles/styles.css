@@ -1,8 +1,8 @@
 /* Core Styling & Custom Properties */
 :root {
-    --primary: #2d5a27; /* Deep Monstera Sage Green */
-    --primary-light: #eef5ed; /* Soft Sage Tint */
-    --accent: #f0a3b5; /* Rose Gold / Pastel Pink */
+    --primary: #2d5a27; 
+    --primary-light: #eef5ed; 
+    --accent: #f0a3b5; 
     --accent-hover: #e08e9f;
     --accent-dark: #b85b70;
     --bg-color: #faf7f2; /* Warm Cream background */
