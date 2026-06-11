@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover exquisite custom cakes, artisan pastries, and celebratory desserts at Monstera Bakery. Made with 100% organic local ingredients.">
+    <title>Monstera Bakery - Exquisite Custom Cakes & Organic Desserts</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- Header & Sticky Navigation -->
+    <header class="site-header" id="site-header">
+        <div class="nav-container">
+            <a href="#home" class="logo-wrapper" aria-label="Monstera Bakery Home">
+                <img class="logo-img" src="images/Premium_Cute_Logo_Vectors-removebg-preview.png" alt="Monstera Bakery Logo">
+            </a>
+            
+            <!-- Hamburger menu button for mobile -->
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-links" id="nav-links" role="navigation">
+                <a href="#home" class="nav-item active">Home</a>
+                <a href="#features" class="nav-item">Why Choose Us?</a>
+                <a href="#specialities" class="nav-item">OurSpecialities</a>
+                <a href="#about" class="nav-item">Our Story</a>
+                <a href="#contact" class="nav-item">Contact us</a>
+            </nav>
+
+            <!-- Desktop call to action button -->
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Overlay backdrop when mobile navigation is active -->
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="badge">Freshly Baked Daily</span>
+                    <h1 class="hero-title">Delicious Cakes for Every <span class="highlight">Occasion</span></h1>
+                    <p class="hero-description">At Monstera Bakery, we craft beautiful custom cakes and desserts using organic ingredients. Let us bring your dream cake to life!</p>
+                    <div class="hero-buttons">
+                        <a href="#specialities" class="btn btn-primary">Browse Gallery</a>
+                        <a href="#contact" class="btn btn-secondary">Order Custom Cake</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-wrapper">
+                    <div class="floating-circle circle-1"></div>
+                    <div class="floating-circle circle-2"></div>
+                    <img src="images/download (1).jpg" alt="Exquisite layered pastel cake decorated with macarons and frosting details" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features / Value Proposition Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Why Choose Us?</h2>
+                <p class="section-subtitle">We combine professional bakery artistry with premium organic ingredients to create memorable dessert centerpieces.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon-container" aria-hidden="true">🌱</div>
+                        <h3>100% Organic</h3>
+                        <p>We source only high-quality, local, organic ingredients with no artificial flavorings or chemical preservatives.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon-container" aria-hidden="true">🎨</div>
+                        <h3>Custom Designs</h3>
+                        <p>Every cake tells a story. Work side-by-side with our designer to match your exact theme, color, and style.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon-container" aria-hidden="true">🚚</div>
+                        <h3>Safe Delivery</h3>
+                        <p>Our temperature-controlled delivery vans ensure your custom cake arrives in pristine, picture-perfect condition.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialities / Gallery Section -->
+        <section id="specialities" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Our Specialities</h2>
+                <p class="section-subtitle">A sneak peek at some of our client-favorite custom cake categories and seasonal specials.</p>
+                
+                <div class="gallery-grid">
+                    <!-- Speciality Card 1 -->
+                    <article class="gallery-card">
+                        <div class="gallery-img-container">
+                            <span class="gallery-price" aria-label="Pricing starts at 85 dollars">$85+</span>
+                            <img src="images/Classy Watercolour Ombre Baby Shower Cake.jpg" alt="Watercolour baby shower cake decorated with gold and pastel meringue details" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <span class="gallery-tag">Baby Shower</span>
+                            <h3>Watercolor Ombre Cake</h3>
+                            <p>Soft blue and gold watercolor frosting decorated with macarons, custom meringue pops, and mini floral crowns.</p>
+                            <div class="gallery-footer">
+                                <div class="rating" aria-label="5 out of 5 stars">★★★★★</div>
+                                <a href="#contact" class="gallery-link">Order Details &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Speciality Card 2 -->
+                    <article class="gallery-card">
+                        <div class="gallery-img-container">
+                            <span class="gallery-price" aria-label="Pricing starts at 65 dollars">$65+</span>
+                            <img src="images/download.jpg" alt="Rich triple berry chocolate cake with fresh berries and wild flowers decoration" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <span class="gallery-tag">Celebration</span>
+                            <h3>Triple Berry Chocolate</h3>
+                            <p>Rich chocolate sponge layers filled with fresh local blackberries, organic strawberries, and wild honey cream topping.</p>
+                            <div class="gallery-footer">
+                                <div class="rating" aria-label="5 out of 5 stars">★★★★★</div>
+                                <a href="#contact" class="gallery-link">Order Details &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Speciality Card 3 -->
+                    <article class="gallery-card">
+                        <div class="gallery-img-container">
+                            <span class="gallery-price" aria-label="Pricing starts at 75 dollars">$75+</span>
+                            <img src="images/download (2).jpg" alt="Elegant multi-tier cream and gold wedding cake with custom piping" class="gallery-img">
+                        </div>
+                        <div class="gallery-info">
+                            <span class="gallery-tag">Wedding & Anniversary</span>
+                            <h3>Elegant Gold Leaf</h3>
+                            <p>Timeless layered vanilla bean cake adorned with real 24k gold leaf detailing and fresh white gardenia roses.</p>
+                            <div class="gallery-footer">
+                                <div class="rating" aria-label="4.9 out of 5 stars">★★★★★</div>
+                                <a href="#contact" class="gallery-link">Order Details &rarr;</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-grid">
+                <div class="about-image-wrapper">
+                    <img src="images/download.jpg" alt="Rustic style cake kitchen with fresh ingredients" class="about-image">
+                    <div class="about-badge-card">
+                        <span class="number">12+</span>
+                        <span class="label">Years of Passion</span>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <h2>Baking Sweet Memories Since 2014</h2>
+                    <p>At Monstera Bakery, our recipe is simple: a cake should not only look like a piece of art but taste like a slice of heaven. Founded by artisan pastry designer Clara Winters, we blend classic European technique with fresh, local Pacific Northwest flavors.</p>
+                    <p>We believe every event deserves a showstopping dessert. That's why every petal is hand-piped, every tier is baked from scratch, and every design is entirely unique to you.</p>
+                    <ul class="about-points">
+                        <li>Baked fresh daily from scratch</li>
+                        <li>Vegan and gluten-free recipes available</li>
+                        <li>Sustainably sourced, fair-trade ingredients</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-accent">Discover Our Story</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Sweet Words</h2>
+                <p class="section-subtitle">Here is why our clients love trusting us with their most precious family celebrations.</p>
+                
+                <div class="testimonial-card">
+                    <blockquote class="testimonial-quote">
+                        "The watercolor ombre cake we ordered for Sahara's baby shower was the talk of the entire event! Not only was the design breath-takingly gorgeous, but the texture was incredibly moist and light. Monstera Bakery is our absolute go-to for all family celebrations now!"
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-name">Ritika Pradhan</span>
+                        <span class="author-role">Happy Customer &bull; Nepal, OR</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter / Contact CTA Section -->
+        <section id="contact" class="contact">
+            <div class="container contact-wrapper">
+                <div class="contact-content">
+                    <h2>Order Your Custom Cake</h2>
+                    <p>Want to book a design consultation or receive a seasonal cake design menu? Enter your email and get 10% off your first cake order!</p>
+                    
+                    <form class="contact-form" id="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" id="email-input" placeholder="Enter your email address" required aria-label="Enter your email for a discount code">
+                        </div>
+                        <button type="submit" class="btn btn-accent">Get 10% Off</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Monstera Bakery</h3>
+                <p>Creating luxury custom cakes and organic sweet treats for events and milestones that deserve the extraordinary.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-icon" aria-label="Visit Monstera Bakery Facebook page">FB</a>
+                    <a href="#" class="social-icon" aria-label="Visit Monstera Bakery Instagram page">IG</a>
+                    <a href="#" class="social-icon" aria-label="Visit Monstera Bakery Pinterest page">PIN</a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Why Choose Us</a></li>
+                    <li><a href="#specialities">Our Specialities</a></li>
+                    <li><a href="#about">About Our Story</a></li>
+                    <li><a href="#contact">Order Custom Cake</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Visit Our Bakery</h4>
+                <p>📍 Chapagaun, Lalitpur, OR</p>
+                <p>📞 (+977) 9876543210 </p>
+                <p>✉️ orders@monsterabakery.com</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Monstera Bakery. All rights reserved. Crafted with love for beautiful events.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript logic -->
+    <script src="app.js"></script>
+</body>
+</html>
